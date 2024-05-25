@@ -40,5 +40,5 @@
 
 깃이 텍스트 명령어 입력 방식인데 반해, 깃허브는 그래픽 유저 인터페이스(GUI)를 제공한다. 깃허브는 페이스트빈(pastebin)과 유사한 서비스인 기스트(Gist)와 위키를 각 저장소마다 운영하고 있으며, 깃 저장소를 통해 고칠 수 있다.
 
-![replit image](https://github.com/yewon12345/OSS_YW/blob/main/replit%20image.png)
+![깃허브 이미지](https://github.com/yewon12345/OSS_YW/blob/main/%EA%B9%83%ED%97%88%EB%B8%8C%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg)
 
