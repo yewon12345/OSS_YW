@@ -1,16 +1,16 @@
 case ${1,,} in
-  jan* | 1) month="Jan" ;;
-  feb* | 2) month="Feb" ;;
-  mar* | 3) month="Mar" ;;
-  apr* | 4) month="Apr" ;;
-  may* | 5) month="May" ;;
-  jun* | 6) month="Jun" ;;
-  jul* | 7) month="Jul" ;;
-  aug* | 8) month="Aug" ;;
-  sep* | 9) month="Sep" ;;
-  oct* | 10) month="Oct" ;;
-  nov* | 11) month="Nov" ;;
-  dec* | 12) month="Dec" ;;
+  jan* | 1. month="Jan" ;;
+  feb* | 2. month="Feb" ;;
+  mar* | 3. month="Mar" ;;
+  apr* | 4. month="Apr" ;;
+  may* | 5. month="May" ;;
+  jun* | 6. month="Jun" ;;
+  jul* | 7. month="Jul" ;;
+  aug* | 8. month="Aug" ;;
+  sep* | 9. month="Sep" ;;
+  oct* | 10. month="Oct" ;;
+  nov* | 11. month="Nov" ;;
+  dec* | 12. month="Dec" ;;
   *) month="not exist" ;;
 esac
 
@@ -41,13 +41,13 @@ else
 fi
 
 case $month in
-  "Jan" | "Mar" | "May" | "Jul" | "Aug" | "Oct" | "Dec") days_in_month=31 ;;
-  "Apr" | "Jun" | "Sep" | "Nov") days_in_month=30 ;;
+  "Jan" | "Mar" | "May" | "Jul" | "Aug" | "Oct" | "Dec") monthdays=31 ;;
+  "Apr" | "Jun" | "Sep" | "Nov") monthdays=30 ;;
   "Feb")
     if [ $flag -eq 1 ]; then
-      days_in_month=29
+     monthdays=29
     else
-      days_in_month=28
+     monthdays=28
     fi
     ;;
   *) 
